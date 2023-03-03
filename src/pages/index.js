@@ -3,7 +3,7 @@ import Home from '@/components/home/Home';
 
 
 function HomeScreen() {
-	return <Home />;
+  return <Home />;
 }
 
 

@@ -5,14 +5,14 @@ import { useAuthService } from '@/hooks/useAuth';
 
 
 function App({ Component, pageProps: { ...pageProps } }) {
-	const user = useAuthService();
+  const user = useAuthService();
 
-	return (
-		<AuthProvider value={user}>
+  return (
+    <AuthProvider value={user}>
 
-			<Component {...pageProps} />
-		</AuthProvider>
-	);
+      <Component {...pageProps} />
+    </AuthProvider>
+  );
 }
 
 export default App
