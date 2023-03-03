@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: black;
+  max-width: 500px;
+}
+
+
+
+.title{
+  margin-block-end: 1rem;
+}
